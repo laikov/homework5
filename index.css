@@ -1,0 +1,124 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}    
+
+.charlotte {
+  position: absolute;
+  left: 1200px;      
+  margin-top: 30px;
+  width: 330px;
+  height: 220px;
+  border: 5px solid rgba(3, 41, 53, 0.755);
+}
+
+.title1 {
+  color: rgba(3, 41, 53, 0.755);
+}
+
+p.char::first-letter {
+  font-size: 2em;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.applePie li:nth-child(even) {
+  color: rgba(3, 41, 53, 0.755);
+  text-decoration: dotted underline;
+}
+
+.applePie {
+  width: 800px;
+  height: auto;
+  margin: 120px auto 0px;
+  padding: 20px 40px;
+  border-left: 3px dashed rgba(15, 50, 62, 0.406);
+  border-top: 3px solid rgba(15, 50, 62, 0.406);
+  border-right: 3px solid rgba(15, 50, 62, 0.406);
+  border-bottom: 3px dashed rgba(15, 50, 62, 0.406);
+  background-color: rgba(45, 174, 216, 0.235);
+}
+
+.coffeeCake {
+  position: absolute;
+  left: 1200px;      
+  margin-top: 30px;
+  width: 330px;
+  height: 220px;
+  border: 5px solid rgba(58, 58, 58, 0.762);      
+}
+
+.title2 {
+  color: rgba(58, 58, 58, 0.762);
+}
+
+p.tir::first-letter {
+  font-size: 2em;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisu li:nth-child(odd) {
+  color: rgba(58, 58, 58, 0.762);
+  text-decoration: dashed underline;
+}
+
+.tiramisu {
+  width: 800px;
+  height: auto;
+  margin: 120px auto 0px;
+  padding: 20px 40px;
+  border-left: 3px dashed rgba(58, 58, 58, 0.762);
+  border-top: 3px solid rgba(58, 58, 58, 0.762);
+  border-right: 3px solid rgba(58, 58, 58, 0.762);
+  border-bottom: 3px dashed rgba(58, 58, 58, 0.762);
+  background-color: rgba(169, 169, 169, 0.18);
+}
+
+.gingerCookie {
+  position: absolute;
+  left: 1200px;    
+  margin-top: 30px;
+  width: 330px;
+  height: 220px;
+  border: 5px solid rgba(34, 74, 34, 0.831);     
+}
+
+.title3 {
+  color: rgba(34, 74, 34, 0.831);
+}
+
+p.cook::first-letter {
+  font-size: 2em;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+.cookie li:nth-child(3n) {
+  color: rgba(34, 74, 34, 0.831);
+  text-decoration: wavy underline;
+}
+
+.cookie {
+  width: 800px;
+  height: auto;
+  margin: 120px auto 0px;
+  padding: 20px 40px;
+  border-left: 3px dashed rgba(34, 74, 34, 0.831);
+  border-top: 3px solid rgba(34, 74, 34, 0.831);
+  border-right: 3px solid rgba(34, 74, 34, 0.831);
+  border-bottom: 3px dashed rgba(34, 74, 34, 0.831);
+  background-color: rgba(143, 188, 143, 0.618);
+}
+
+.cake {
+  text-decoration: underline;      
+}
+
+.comment {
+  text-decoration: overline;
+  text-align: center;
+  font-style: italic;
+}
+
+.recipe {
+  text-align: center;
+  text-decoration: underline double;
+}
